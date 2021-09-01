@@ -1,0 +1,54 @@
+body{
+      margin:0;
+    }
+    #active {
+      color:brown;
+    }  
+    .saw {
+      color:hotpink;
+    }
+    a {
+      color:cyan; 
+      text-decoration:0; 
+    }
+    h1 {
+      font-size: 55px;
+      text-align: center;
+      border-bottom: solid 2px brown;
+      margin:0;
+      padding: 20px;
+    }
+    ol{
+      border-right:1px solid brown;
+      width : 100px;
+      margin:0;
+      padding:20px;
+    }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{       
+     /*
+     ol의 부모가 grid 라는 의미
+     */
+    padding-left: 30px;
+  }
+  #grid #article{
+    padding-left:25px;
+  }
+  @media(max-width:800px) { /* 800px 넘어갈때 데이터가 아래로 내려온다 */
+    #grid {
+        display: block; 
+    }
+    ol  {
+      border-right:10;
+    }
+    h1 {
+      border-bottom:none;
+    } 
+    h2 {
+      color: black;
+    } 
+  }

@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset = "utf-8">
+    <title>GRID</title>
+    <!-- 2fr 1fr 을 통해 칸을 자동으로 조절해 나눈다. -->
+    <style>
+        #water  {
+            border: 5px solid skyblue;
+            display:grid;
+            grid-template-columns: 150px 1fr; 
+        }
+      
+        .item   {
+            flex: 140px;
+        }
+        div{
+            
+            border: 5px solid gray;
+        }
+      
+    </style>
+
+    </head>
+
+    <body>
+    <div id = "water">
+    <!-- water 태그를 style 에서 조절할 수 있다. -->
+        <div>NAVIGATION</div> 
+        <div>CSS는 HTML과 달리 문법에 엄격하다. 
+        구두점 하나만 빼먹는 실수를 해도 전체 CSS파일의 로딩에 실패한다. 
+        따라서 CSS를 편집할 때는 코드의 무결성을 검증해줄 수 있는 IDE나 코드 에디터를 사용하는 게 좋다.
+        5시쯤에 시리얼을 먹을것이다. 
+        4b연필이 필요하다.</div>
+    </div>
+
+<div class="container">
+	<div class="item">AAaa가나다k</div>
+	<div class="item">BBBB라마바GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG</div>
+	<div class="item">cccc사아자</div>
+</div>
+        
+    </body>
+
+</html>

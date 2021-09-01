@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width =150px">
+        <title>CSS DEMO 만들기</title>
+        <style>
+        *    {
+                color : #00C73C;
+            }
+        li  {
+            color: blue;
+        }
+        li#special    {
+            color: pink;
+        }
+        
+        .red    {
+            width: 100px;
+            height: 100px;
+            padding: 20px 0px ;
+            margin: 20px;
+            border: 2px dashed red;
+            
+            background: #F9E000;
+        }
+
+        button:hover   {
+            color: red;
+            background: black; 
+        }
+
+        a[href$=".com/"] {
+            color : purple;
+        }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li id = "special">First</li>
+            <li>Second</li>
+        </ol>
+        <h1 id = "special">First</h1>
+        <button>Button 1 </button>
+        <button><a href = "https://vclock.kr/">Button 2 </a></button>
+        <div class = "red"></div>
+        <div class = "blue"></div>
+        <a href = "https://www.youtube.com/">YOUTUBE</a>
+        <a href = "https://sudoku.com/ko">스도쿠</a>
+        <a href = "https://www.naver.com/">naver</a>
+        <a>Empty</a>
+    </body>
+</html>

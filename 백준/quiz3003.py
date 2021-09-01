@@ -1,0 +1,7 @@
+k, q, l, b, n, p = map(int,input().split())
+print(1 - k)
+print(1 - q)
+print(2 - l)
+print(2 - b)
+print(2 - n)
+print(8 - p)
